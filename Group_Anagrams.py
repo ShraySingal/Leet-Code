@@ -12,4 +12,4 @@ class Solution:
             else:
                 d[data] = [i]
 
-        return list(d.values()).    
+        return list(d.values())
