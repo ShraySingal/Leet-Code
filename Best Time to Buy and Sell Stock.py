@@ -1,3 +1,7 @@
+from typing import List, Optional, Dict, Tuple, Set
+from collections import deque, defaultdict
+import heapq
+
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         b = prices[0]

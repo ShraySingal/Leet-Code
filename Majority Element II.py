@@ -1,3 +1,7 @@
+from typing import List, Optional, Dict, Tuple, Set
+from collections import deque, defaultdict
+import heapq
+
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
         r1 = r2 = None

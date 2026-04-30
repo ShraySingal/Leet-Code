@@ -1,3 +1,7 @@
+from typing import List, Optional, Dict, Tuple, Set
+from collections import deque, defaultdict
+import heapq
+
 class Solution:
     def areAlmostEqual(self, s1: str, s2: str) -> bool:
         count = 0

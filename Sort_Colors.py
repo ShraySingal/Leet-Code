@@ -1,3 +1,7 @@
+from typing import List, Optional, Dict, Tuple, Set
+from collections import deque, defaultdict
+import heapq
+
 class Solution(object):
     def sortColors(self, nums):
         n = len(nums)

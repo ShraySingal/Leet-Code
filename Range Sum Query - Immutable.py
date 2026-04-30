@@ -1,3 +1,7 @@
+from typing import List, Optional, Dict, Tuple, Set
+from collections import deque, defaultdict
+import heapq
+
 class NumArray:
     def __init__(self, nums: List[int]):
         self.num = nums

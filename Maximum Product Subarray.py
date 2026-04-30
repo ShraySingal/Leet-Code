@@ -1,3 +1,7 @@
+from typing import List, Optional, Dict, Tuple, Set
+from collections import deque, defaultdict
+import heapq
+
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         minValue = maxValue = ans = nums[0]

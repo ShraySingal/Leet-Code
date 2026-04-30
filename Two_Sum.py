@@ -1,3 +1,7 @@
+from typing import List, Optional, Dict, Tuple, Set
+from collections import deque, defaultdict
+import heapq
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         num_map = {}
